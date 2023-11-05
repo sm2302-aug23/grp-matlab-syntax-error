@@ -25,3 +25,6 @@ Spline Interpolation of Cursive Word BOB (19B9046)
 Spline Interpolation of Cursive Word Adam (19B9027)
 
 ![Adam](https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/142872329/92e59424-a215-4eaa-a7ec-3e4be6627696)
+
+![Subplot_name](https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/141397301/34158eff-94dc-4f5d-bb11-69b22074d40e)
+
