@@ -4,7 +4,7 @@ x4 = [3.00 2.50 2.00 1.00 1.00 3.50 5.00 3.50 5.00 6.00 6.00 5.90 ...
 y4 = [1.00 2.50 4.00 1.00 2.50 2.50 2.50 1.00 1.00 1.00 3.00 2.50 ...
     3.00 2.80 2.50 1.00 1.00 1.00 2.50 3.00 3.50 3.00];
 
-n = length(x);
+n = length(x4);
 t = 0:n-1; % Parametric coordinate t
 tt = 0:0.05:n-1; % More precise coordination for t spline interpolation
 
