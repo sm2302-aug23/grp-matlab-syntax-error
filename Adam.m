@@ -7,8 +7,8 @@ y2 = [1 4 1 2.5 2.5 2.5 2.5 2.5 2.5 2 1.5 1.4 2.4 3 3.5 4 3.2 1.5 2 2.5 2 1.5 2 
  tt = 0:0.001:n-1; % More dense coordinate tt for spline interpolation
 
  % Formule spline interpolation
- xx = spline(t, x, tt);
- yy = spline(t, y, tt);
+ xx = spline(t, x2, tt);
+ yy = spline(t, y2, tt);
 
  % Plot settings
  figure(1)
