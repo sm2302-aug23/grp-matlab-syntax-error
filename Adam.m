@@ -14,7 +14,7 @@ y2 = [1 4 1 2.5 2.5 2.5 2.5 2.5 2.5 2 1.5 1.4 2.4 3 3.5 4 3.2 1.5 2 2.5 2 1.5 2 
  figure(1)
  plot(xx, yy, 'k', 'LineWidth', 1.5) % plot spline
  hold on
- plot(x, y, 'bo', 'MarkerFaceColor', 'b') % plot data points
+ plot(x2, y2, 'bo', 'MarkerFaceColor', 'b') % plot data points
  axis([-0.2 6 -0.2 4.5])
  grid on
  title('Spline Interpolation of Cursive word Adam')
