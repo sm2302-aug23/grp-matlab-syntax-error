@@ -1,4 +1,4 @@
-% Define data points for x and y coordinates
+% "bob" cursive plot retrieved from graph paper manually
 x1 = [0.6 2.2 2.0 1.7 1.1 1.6 2.6 2.4 0.9 1.0 2.4 4.0 4.0 2.7 2.8 3.7 ...
     5.0 4.6 4.0 4.0 5.0 3.6];
 
