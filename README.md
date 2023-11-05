@@ -16,3 +16,7 @@ Spline Interpolation of Cursive Word Azri (19B9052)
 Spline Interpolation of Cursive Word yat (19B9029)
 
 ![yat](https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/141397205/c34aedff-0d61-4051-8ab6-af3326782e7c)
+
+Spline Interpolation of Cursive Word BOB (19B9046)
+
+![bob](https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/141397239/16dbd0ea-3b90-4f1b-8f94-9ecf17132c33)
