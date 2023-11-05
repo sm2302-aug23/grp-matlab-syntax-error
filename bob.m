@@ -20,7 +20,7 @@ tt = 0:0.1:n-1; % More dense coordinate tt for spline interpolation
  plot(x, y, 'o', 'MarkerFaceColor', 'k') % plot data points
  axis([-0.2 6 -0.2 4.5])
  grid on
- title('Spline Interpolation of Cursive Letter D')
+ title('Spline Interpolation of the word "bob" ')
  xlabel('x')
  ylabel('y')
  set(gca, 'FontSize', 10, 'LineWidth', 1)
