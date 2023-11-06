@@ -37,3 +37,11 @@ Read [`notes.md`](notes.md) for some advice on good MATLAB programming style and
 # This is the subplot graph 
 ![Subplot_name](https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/141397301/34158eff-94dc-4f5d-bb11-69b22074d40e)
 
+# Function to develop cursive letters into words
+These are the some of the examples of our letters and its coordinates (a to z)
+![Screenshot (1)](https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/141397205/a0cf8e02-9064-4694-b5b5-326491334d30)
+
+# The spline interpolation code 
+To create letters from words, write in the command window "plotWord('abc')"
+![Screenshot (5)](https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/141397205/5755dedc-73bb-438e-b826-7fa04fedec72)
+
