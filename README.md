@@ -30,9 +30,10 @@ Read [`notes.md`](notes.md) for some advice on good MATLAB programming style and
 
 <img width="900" alt="Screenshot 2023-11-06 at 11 24 49 PM" src="https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/141397205/9e7ea175-d5ba-4281-952b-26ebd18dd11b">
 
-plot_spline.m function script created so that all the names are splined in the subplots.
+# plot_spline.m function script created so that all the names are splined in the subplots.
 
 <img width="900" alt="Screenshot 2023-11-06 at 11 26 03 PM" src="https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/141397205/43bdd2e4-0b9d-4694-a894-c0236f78f75e">
 
+# This is the subplot graph 
 ![Subplot_name](https://github.com/sm2302-aug23/grp-matlab-syntax-error/assets/141397301/34158eff-94dc-4f5d-bb11-69b22074d40e)
 
