@@ -1,8 +1,8 @@
 function plotWord(word)
-    % Create a map to hold basic shapes representing letters
+    % Creating a map to show the letters
     letterShapes = containers.Map;
     
-    % Define basic shapes for each letter
+    % Coordinates for each cursive letters
     letterShapes('a') = [2.8, 4.0; 1.0, 3.0; 0.6, 2.2; 2.0, 2.6;... 
     3.0, 3.8; 2.9, 3.4; 3.0, 2.2; 4.0, 2.0];
     letterShapes('b') = [1.2, 3.8; 2.4, 4.0; 0.8, 1.2; 1.4, 2.2;...
@@ -52,35 +52,41 @@ function plotWord(word)
     2.3 , 4.3; 1.6 , 2.4; 3 , 3;3.3 , 4.1; 3.2 , 3.2; 1.3 , 0.8; 4 ,1];
     letterShapes('z') = [2 , 5; 1.3 , 4; 1 , 4; 1.2 , 4.2; 4 , 4.3;... 
     4.5 , 5; 3.7, 4.6; 1.2 ,1.3; 0.6 , 1; 1 , 1.7; 4.5 , 1.6];
- 
-% z
 
-    % Create a figure
+    % Create the figure
     figure;
     
-    % Set initial position for drawing letters
+    % Initial position for the letters
     posX = 0;
     posY = 0;
     
-    % Loop through the characters in the input word
+    % Loop through the characters
     for i = 1:length(word)
-        letter = lower(word(i)); % Convert to lowercase
+        letter = lower(word(i)); % to lowercase any capital letters 
         
         if letterShapes.isKey(letter)
             shape = letterShapes(letter);
+
+            % Spline interpolation 
+            x = posX + shape(:,1);
+            y = posY + shape(:,2);
+            t = 1:length(x);
+            ts = 1:0.1:length(x); 
+            xs = spline(t, x, ts);
+            ys = spline(t, y, ts);
+
+             % To Plot the interpolated shape of the letter
+            plot(xs, ys, 'LineWidth', 2);
+            hold on
             
-            % Plot the shape for the letter
-            plot(posX + shape(:,1), posY + shape(:,2), 'LineWidth', 2);
-            hold on;
-            
-            % Update the position for the next letter
-            posX = posX + max(shape(:,1)) + 0.5; % Spacing between letters
+            % The position for the next letter
+            posX = posX + max(shape(:,1)) + 0.5; 
         else
             disp(['Shape for the letter ' letter ' is not defined.']);
         end
     end
     
-    % Set title and axis
+    % For the title and the axis
     title(['Cursive-Written Word: ' upper(word)]);
     axis off;
 end
